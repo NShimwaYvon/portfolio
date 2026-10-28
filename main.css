@@ -70,14 +70,13 @@ body{
     font-size:30px;
     width:400px;
     height:40px;
-    border-radius:10px
-
+    border-radius:10px;
 }
 .t1{
     font-size:50px;
     font-family:Katibeh;
 }
-.t2{
+.spanl{
     color:#4a95eb;
     font-size:50px;
     font-family: Katibeh;
@@ -90,7 +89,7 @@ body{
     display:flex;
     gap:100px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .div141{
     display: flex;
@@ -102,7 +101,7 @@ body{
     border-radius: 10px;
 }
 
-a{
+.linkl1{
     text-decoration: none;
     color:white;
     font-size:30px;
@@ -125,7 +124,100 @@ img{
     width: 500px;
     height:500px;
 }
+.contentA{  
+    grid-template-columns:1.1fr 0.9;
+    padding:0px;
+}
+.ta1{
+    font-size:50px;
+    font-family:Katibeh;
+}
+.aboutp{
+    font-size:25px;
+    font-family: Katibeh;
+}
+.diva23{
+    display: flex;
+}
+.diva12img{
+    width:40px;
+    height:40px;
+}
+.diva111{
+    background-color:#152753;
+    color:#4a95eb;
+    font-size:30px;
+    width:200px;
+    height:40px;
+    border-radius:10px
+}
+.diva113{
+    display: flex;
+}
+.aboutimg{
+    width: 500px;
+    height:500px;
+    position:absolute;
+    opacity:0.3;
+    right:10px;
+    top:100px;
+}
 .diva2{
     display: flex;
-    gap:30px;
+    gap:100px;   
+}
+.head3about{
+    font-size:15px;
+}
+.diva22{
+    display: flex;
+}
+.diva21{
+    display: flex;
+}
+.catabout{
+    color:#4184d3;
+}
+.footimag{
+    width:100px;
+    height:100px;
+} 
+.diva3{
+    display: flex;
+    background-color: #071d4d;
+    width:100%;
+    gap:20px;
+}
+.diva1{
+    margin:100px 100px 0px 100px;
+}
+.diva2{
+    margin:0 100px 50px 100px ;
+}
+.diva33{
+    background-color: #02091a;
+    border:solid;
+    margin:30px 100px  100px 0;
+    padding: 40px;
+    border-color: black;
+    border-radius: 10px;
+}
+.diva32{
+    background-color: #02091a;
+    border:solid;
+    margin:30px 0 100px 0;
+    padding: 40px;
+    border-color: black;
+    border-radius: 10px;
+}
+.diva31{
+    background-color: #02091a;
+    border:solid;
+    margin:30px 0 100px 100px;
+    padding: 40px;
+    border-color: black;
+    border-radius: 10px;
+}
+.diva311{
+    display: flex;
 }
