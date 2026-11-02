@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbarright">
+            <img class="topicon" src="./images/search001.png">
+            <img class="topicon" src="./images/ring001.png">
+            <img class="topicon" src="./images/users001.png">
+        </div>
+    </header>
+
+    <main class="contentD">
+        <div class="divdleft">
+            <h1 class="menuTitle">Menu</h1>
+            <div class="menuItem active">
+                <img class="menuImg" src="./images/dashboard active001.png">
+                <span>Dashboard</span>
+            </div>
+            <div class="menuItem">
+                <img class="menuImg" src="./images/blog post002.png">
+                <span>Blog Posts</span>
+            </div>
+            <div class="menuItem">
+                <img class="menuImg" src="./images/categories001.png">
+                <span>Categories</span>
+            </div>
+            <div class="menuItem">
+                <img class="menuImg" src="./images/analytics001.png">
+                <span>Analytics</span>
+            </div>
+            <div class="menuItem">
+                <img class="menuImg" src="./images/setting001.png">
+                <span>Settings</span>
+            </div>
+        </div>
+
+        <div class="divdright">
+            <div class="divdhead">
+                <h1 class="td1">Blog Management Dashboard</h1>
+                <p class="dashp">Manage your blog posts categories and analytics</p>
+            </div>
+
+            <div class="divd2">
+                <div class="divd21">
+                    <div class="cardtop">
+                        <img class="cardicon" src="./images/total document001.png">
+                    </div>
+                    <h3>Total</h3>
+                    <p class="catnum">56</p>
+                    <span class="catsub">All Post</span>
+                </div>
+                <div class="divd21">
+                    <div class="cardtop">
+                        <img class="cardicon" src="./images/published checkmark002.png">
+                    </div>
+                    <h3>Published</h3>
+                    <p class="catnum">32</p>
+                    <span class="catsub">Live Now</span>
+                </div>
+                <div class="divd21">
+                    <div class="cardtop">
+                        <img class="cardicon" src="./images/draft pencil002.png">
+                    </div>
+                    <h3>Drafts</h3>
+                    <p class="catnum">24</p>
+                    <span class="catsub">Not Published</span>
+                </div>
+            </div>
+
+            <div class="divd3">
+                <div class="divd31">
+                    <h2>Blog Posts</h2>
+                    <a class="newpostbtn">+New Post</a>
+                </div>
+                <div class="divd32">
+                    <table class="tableD">
+                        <tr class="trhead">
+                            <th>Titles</th>
+                            <th>Categories</th>
+                            <th>Status</th>
+                            <th>Dates</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tr>
+                            <td class="titlecell"><img class="titleicon" src="./images/python.png">
+                            <span>Getting Started With Python</span></td>
+                            <td><span class="catpy">Python</span></td>
+                            <td><span class="statuspub">•Published</span></td>
+                            <td>2026-10-23</td>
+                            <td>
+                                <img class="actionimg edit" src="./images/edit pencil001.png">
+                                <img class="actionimg delete" src="./images/delete trash002.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="titlecell"><img class="titleicon" src="./images/css badge001.png">
+                            <span>Advanced Css Techniques</span></td>
+                            <td><span class="cattut">Tutorial</span></td>
+                            <td><span class="statusdraft">•Draft</span></td>
+                            <td>2026-10-03</td>
+                            <td>
+                                <img class="actionimg edit" src="./images/edit pencil001.png">
+                                <img class="actionimg delete" src="./images/delete trash002.png">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
